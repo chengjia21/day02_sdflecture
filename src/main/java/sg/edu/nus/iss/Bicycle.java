@@ -1,6 +1,6 @@
 package sg.edu.nus.iss;
 
-public class Bicycle {
+public class Bicycle implements Startable {
     private int gear;
     private int speed;
 
@@ -8,6 +8,9 @@ public class Bicycle {
 
     
     public Bicycle() {
+        // default settings if you want
+        // this.gear = 5;
+        // this.speed = 5;
     }
     
 
